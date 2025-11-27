@@ -31,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const customStyle = document.createElement('style');
     // 2. 写入你的 CSS 规则（保留 !important 确保优先级）
     customStyle.textContent = `
+    .{
+    font-family:;xhei ios;
+    }
 	    .Frame_content_3XrxZ{
             max-width:100vw!important;
         }
@@ -65,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .Home_wrap_XXu6Z .SecBar_visable_16JHY > div {
             display: none !important;
         }
-		.BackTop_main_3m3aB, .m-gotop{
+		   .BackTop_main_3m3aB, .m-gotop{
             margin-left:0!important;
             left:auto!important;
             right:10vw!important;
@@ -83,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
             height:100%!important;
             width:100%!important;
         }
-		.Nav_logo_1BwBq{
+		   .Nav_logo_1BwBq{
             width:110px!important;
         }
         .Nav_logo_1BwBq img{
@@ -199,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
             font-size:.96rem!important;
         }
         .head_cut_2Zcft{
-            font-family:fantasy,"方正姚体"!important;
+            font-family:fantasy,"等线"!important;
             font-size:1.2rem!important;
             line-height:1.3rem!important;
         }
