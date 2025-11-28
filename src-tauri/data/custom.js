@@ -24,3 +24,19 @@ window.open = function (url, target, features) {
 }
 
 document.addEventListener('click', hookClick, { capture: true })
+
+//改变字体
+document.addEventListener('DOMContentLoaded', function() {
+    // 1. 创建 style 标签
+    const customStyle = document.createElement('style');
+    // 2. 写入你的 CSS 规则（保留 !important 确保优先级）
+    customStyle.textContent = `
+		body{
+		font-family:xhei ios;
+		}
+    `;
+    // 3. 插入到页面头部（确保样式优先生效）
+    document.head.appendChild(customStyle);
+    // 可选：调试用（打包后可删除，或通过 PakePlus 调试模式查看）
+    console.log('PakePlus 自定义 CSS 已注入');
+});
