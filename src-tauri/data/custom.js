@@ -31,9 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const customStyle = document.createElement('style');
     // 2. 写入你的 CSS 规则（保留 !important 确保优先级）
     customStyle.textContent = `
-    body{
-      font-family:xhei ios;
-    }
+		body{
+		font-family:xhei ios;
+		font-size:18px;
+		}
 	    .Frame_content_3XrxZ{
             max-width:100vw!important;
         }
@@ -220,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
             vertical-align:-2px!important;
         }
         .UG_left_nav .nav_item{
-            font-size:16px!important;
+            font-size:18px!important;
         }
     `;
     // 3. 插入到页面头部（确保样式优先生效）
