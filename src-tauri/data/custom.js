@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     customStyle.textContent = `
 		body{
 		font-family:xhei ios;
+		font-weight:bold;
 		font-size:18px;
 		}
 	    .Frame_content_3XrxZ{
@@ -208,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
             line-height:1.3rem!important;
         }
         .head-info_info_2AspQ{
-            line-height:1rem!important;
+            line-height:1.5rem!important;
         }
         .wbpro-feed-ogText{
             font-weight:bold!important;
